@@ -1,0 +1,20 @@
+sim:
+  timestep: 0.002
+  publish_rate_hz: 50.0
+  realtime: true
+  base_world_xyz: [0.0, 0.0, 1.0]
+
+home_q:
+  JOINT1: -0.000001628
+  JOINT2:  0.297361544
+  JOINT3:  0.296742637
+  JOINT4: -0.000030712
+  JOINT5:  0.000061231
+  JOINT6:  0.000102331
+
+gripper_interface:
+  # Match current real bridge GripperCommand coordinate contract.
+  command_open: -1.7
+  command_close: 45.0
+  joint7_open_m: 0.0
+  joint7_close_m: 0.05

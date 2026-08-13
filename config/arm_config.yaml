@@ -1,0 +1,12 @@
+robot:
+  base_frame: ARM_BASE_LINK
+  tool_frame: gripper_tcp
+  base_world_xyz: [0.0, 0.0, 1.0]
+  tcp_offset_local_xyz_m: [0.05, 0.0, 0.0]
+home_q_rad:
+  JOINT1: -0.000001628
+  JOINT2:  0.297361544
+  JOINT3:  0.296742637
+  JOINT4: -0.000030712
+  JOINT5:  0.000061231
+  JOINT6:  0.000102331
